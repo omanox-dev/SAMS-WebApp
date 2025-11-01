@@ -22,39 +22,45 @@
 ### Test Data Creation (Minimal Setup)
 **Create these test accounts manually:**
 
+- Username: admin@test.com
+- Password: [REDACTED]
+ - Role: Administrator
 **Admin Account:**
 - Username: admin@test.com
 - Password: admin123
-- Role: Administrator
+ - Role: Administrator
+- Username: admin@test.com
+- Password: [REDACTED]
+ - Role: Administrator
 
 **Teacher Accounts (Multiple for comprehensive testing):**
 1. **Primary Teacher**
-   - Username: teacher1@test.com  
-   - Password: teacher123
+  - Username: teacher1@test.com  
+  - Password: teacher123
    - Name: Dr. John Smith
    - Subject: Computer Science
    - Department: CSE
    - Classes: CSE 2nd Year A, CSE 3rd Year B
 
 2. **Secondary Teacher**
-   - Username: teacher2@test.com
-   - Password: teacher123
+  - Username: teacher2@test.com
+  - Password: teacher123
    - Name: Prof. Mary Johnson
    - Subject: Mathematics
    - Department: CSE
    - Classes: CSE 1st Year A, CSE 2nd Year B
 
 3. **Cross-Department Teacher**
-   - Username: teacher3@test.com
-   - Password: teacher123
+  - Username: teacher3@test.com
+  - Password: teacher123
    - Name: Dr. Robert Wilson
    - Subject: Physics
    - Department: ECE
    - Classes: ECE 1st Year A, ECE 2nd Year A
 
 4. **Multi-Subject Teacher**
-   - Username: teacher4@test.com
-   - Password: teacher123
+  - Username: teacher4@test.com
+  - Password: teacher123
    - Name: Ms. Lisa Davis
    - Subjects: Chemistry, Environmental Science
    - Department: CIVIL

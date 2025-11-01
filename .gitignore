@@ -18,3 +18,7 @@
 
 # PHPStorm
 /.phpunit.result.cache
+
+# Local config files
+config/database_local.php
+config/*.local.php

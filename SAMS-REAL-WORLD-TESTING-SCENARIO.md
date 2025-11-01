@@ -171,7 +171,7 @@
    ```
    URL: http://college-server/sams/
    Username: amit.patel@rgit.edu.in
-   Password: [assigned password]
+   Password: admin123
    Expected: Successful login to teacher dashboard
    ```
 
@@ -206,7 +206,7 @@
 1. **Student Login**
    ```
    Username: arjun.krishnan@student.rgit.edu.in
-   Password: [assigned password]
+   Password: student123
    Expected: Student dashboard access
    ```
 
