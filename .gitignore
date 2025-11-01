@@ -1,0 +1,20 @@
+# Ignore application logs and runtime files
+/logs/
+*.log
+
+# Ignore environment and IDE files
+.env
+.env.local
+.env.php
+.vscode/
+.idea/
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# OS files
+.DS_Store
+
+# PHPStorm
+/.phpunit.result.cache

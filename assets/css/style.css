@@ -1,0 +1,174 @@
+/* Custom Styles for Student Attendance Management System */
+
+/* Global Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+/* Login/Register Forms */
+.auth-form {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.auth-form .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Dashboard Cards */
+.dashboard-card {
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+/* Attendance Table */
+.attendance-table th, .attendance-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.attendance-status {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.status-present {
+    background-color: #28a745;
+}
+
+.status-absent {
+    background-color: #dc3545;
+}
+
+.status-late {
+    background-color: #ffc107;
+}
+
+/* Quick Mark Attendance Interface */
+.quick-mark {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.quick-mark button {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+
+/* Reports */
+.attendance-chart-container {
+    position: relative;
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Alerts */
+.attendance-alert {
+    border-left: 5px solid #dc3545;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+/* Profile */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    border: 5px solid #f8f9fa;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .attendance-table {
+        font-size: 0.85rem;
+    }
+    
+    .quick-mark button {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Print Styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .print-only {
+        display: block !important;
+    }
+    
+    table {
+        page-break-inside: auto;
+    }
+    
+    tr {
+        page-break-inside: avoid;
+        page-break-after: auto;
+    }
+    
+    .table {
+        border: 1px solid #dee2e6;
+    }
+    
+    .table th, .table td {
+        border: 1px solid #dee2e6 !important;
+    }
+}
