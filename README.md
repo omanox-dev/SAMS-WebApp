@@ -4,10 +4,12 @@ A comprehensive attendance management system for educational institutions.
 
 link to demo Video Of Application :-
 
-Admin and Teacher Login :- https://screenrec.com/share/4GHqa7ePuY
+Admin and Teacher Login :- 
 
+student login :- 
 
-Admin and Teacher Login :- https://screenrec.com/share/4GHqa7ePuY
+Bulk Import :- https://screenrec.com/share/LN0t7E1Wjr
+
 ## 📚 Documentation
 
 Complete project documentation is available in the [`documentation/`](./documentation/) folder:
